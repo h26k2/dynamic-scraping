@@ -1,0 +1,24 @@
+{
+  "name": "dynamic-scraping",
+  "version": "1.0.0",
+  "description": "a short demo to know more about dynamic scraping",
+  "main": "app.js",
+  "scripts": {
+    "start" : "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h26k2/dynamic-scraping.git"
+  },
+  "author": "h26k2 , hasnain karim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/h26k2/dynamic-scraping/issues"
+  },
+  "homepage": "https://github.com/h26k2/dynamic-scraping#readme",
+  "dependencies": {
+    "ejs": "^3.1.2",
+    "express": "^4.17.1",
+    "puppeteer": "^3.0.4"
+  }
+}
