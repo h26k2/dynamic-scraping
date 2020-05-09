@@ -14,7 +14,7 @@ app.get("/",(req,res)=>{
 app.post('/track',async(req,res)=>{
 
     let {num} = req.query;
-    console.log(`sending recieved for tracking : ${num}`);
+    console.log(`request recieved for tracking : ${num}`);
 
 
     try{
