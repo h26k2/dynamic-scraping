@@ -19,7 +19,7 @@ app.post('/track',async(req,res)=>{
 
     try{
 
-        let browser =  await puppeteer.launch({headless : false});
+        let browser =  await puppeteer.launch({headless : true});
         let page = await browser.newPage();
         await page.goto(url , {waitUntil : 'networkidle0' ,  timeout : 0});
 
