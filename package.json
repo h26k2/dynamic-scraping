@@ -18,7 +18,7 @@
   "homepage": "https://github.com/h26k2/dynamic-scraping#readme",
   "dependencies": {
     "ejs": "^3.1.2",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "puppeteer": "^3.0.4"
   }
 }
